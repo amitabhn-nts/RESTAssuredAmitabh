@@ -36,6 +36,11 @@ public class Demo {
 		RequestSpecification testObj = given().filter(new AllureRestAssured());
 	}
 	
+	@Test
+	public void testDemo4() {
+		RequestSpecification testObj = given().filter(new AllureRestAssured());
+	}
+	
 	
 
 }
